@@ -33,7 +33,7 @@ Default credentials for airflow and database is `airflow:airflow`
 
 # Configuration
 
-The company [registry file](https://ofdata.ru/open-data/download/egrul.json.zip) is downloaded in `/opt/airflow/external-data` by the default 
+The company [registry file](https://ofdata.ru/open-data/download/egrul.json.zip) is downloads at `/opt/airflow/external-data` by the default 
 
 In order to allow DAG to access datastore u must define the following postgres connections:
 
@@ -93,6 +93,24 @@ request-timeout-in-seconds: 15
 </details>
 
 # Results
+
+The following dags should be created:
+
+![dags overview](https://gcdnb.pbrd.co/images/DaqkkcNGXrQK.png?o=1)
+
+* `discover_hh_relevant_vacancies` is responsible for parsing and persisting relevant vacancies
+
+![discover_hh_relevant_vacancies](https://gcdnb.pbrd.co/images/AVmh4b6l6Jkn.png?o=1)
+
+* `discover_relevant_companies` is responsible for downloading ergul registry from external source and persiting info about telecom companies
+
+![discover_relevant_companies](https://gcdnb.pbrd.co/images/3kVvtNLRXRwW.png?o=1)
+
+* `search_top_skills` is responsible for draft skill rating based on vacancies dataset
+
+![search_top_skills](https://gcdnb.pbrd.co/images/iDPPGwNnhPlW.png?o=1)
+
+## Rating
 
 By the default a skill rating file is located at external-data folder and u can override this by defining variable `skill_rating_output_file` via Admin -> Variables menu
 

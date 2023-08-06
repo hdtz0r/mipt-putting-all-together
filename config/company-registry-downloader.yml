@@ -1,3 +1,2 @@
-url: https://s484vla.storage.yandex.net/rdisk/d553a34d07567349a1413db85e76648f0282cb458f3b599a7d7dd4c515ebf3aa/64cd89b0/OUjs2lXpaM_rqa4rxdbkhnfT_wR9_SnOyW27yBNjWJIQYb66mb2jWmwmCtptS-wHZzCDH-kqyRIPEOCmsHK82Q==?uid=0&filename=hw3.zip&disposition=attachment&hash=sTO142UGE8%2BbhNF2chovl3eOmbMviYCakcI3i%2B173uSajKd0FlnrPfw5JbIQXNBPq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=156942186&fsize=34651962&hid=e299ab0ad27eb5361860501a97186080&media_type=compressed&tknv=v2&rtoken=t1D9Azo9z2wj&force_default=no&ycrid=na-220d0bebd4265ce97eabfbe543531132-downloader17e&ts=602214231cc00&s=18e62f7e89aaa71e2761419b8d729162247c0a4f9e577da1ff6c28b3ea54fbc1&pb=U2FsdGVkX19QcW23iD5q5L14MxuxIH-6iun9ahVGrH4GDTdxoXksWHKNTyn9YEwi7riSGYYNfFsUeY31KcaU8sYmmaNUUlRpm8F2CEPKR84
-#url: https://ofdata.ru/open-data/download/egrul.json.zip
+url: https://ofdata.ru/open-data/download/egrul.json.zip
 output-filename: /opt/airflow/external-data/company-registry-sample.zip
