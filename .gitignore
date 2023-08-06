@@ -1,0 +1,12 @@
+__pycache__
+*.log
+data
+.venv
+.vscode
+*.db
+*.prof
+*.yaml
+logs
+external-data
+plugins
+*.zip

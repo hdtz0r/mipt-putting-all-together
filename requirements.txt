@@ -1,0 +1,8 @@
+pyyaml==6.0
+SQLAlchemy==1.4.49
+beautifulsoup4==4.12.2
+aiohttp==3.8.3
+pyyaml==6.0
+orjson==3.8.3
+typing_extensions==4.4.0
+SQLAlchemy-Utils==0.39.0

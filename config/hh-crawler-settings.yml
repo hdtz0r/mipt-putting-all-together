@@ -1,0 +1,7 @@
+datastore:
+  connection-string: postgresql://airflow:airflow@postgres:5432/hh_vacancies
+
+vacancies-limit: 100
+vacancies-prefetch: 50
+hh-api-endpoint: "https://api.hh.ru/vacancies"
+request-timeout-in-seconds: 15

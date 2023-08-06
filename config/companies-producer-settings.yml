@@ -1,0 +1,21 @@
+processes:
+  egrul-registry:
+    disabled: false
+    datasource:
+      data-path: /opt/airflow/external-data
+    datastore:
+      connection-url: postgresql://airflow:airflow@postgres:5432/companies
+      driver: PostgreDatastore
+      parameters:
+        batch:
+          max-size: 5000
+        connection: {}
+        init-storage-sql: "TRUNCATE public.company RESTART IDENTITY;"
+        max-pool-size: 4
+    processor:
+      max-io-workers: 2
+      max-processes: 8
+      transformer:
+        parameters:
+          model: Company
+        transformer: GenericTransformer
