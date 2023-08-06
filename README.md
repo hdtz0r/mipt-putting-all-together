@@ -84,8 +84,8 @@ HH crawler configuration located at `/opt/airflow/config`
 datastore:
   connection-string: postgresql://airflow:airflow@postgres:5432/hh_vacancies
 
-vacancies-limit: 1000
-vacancies-prefetch: 50
+vacancy-limit: 250
+vacancy-prefetch: 50
 hh-api-endpoint: "https://api.hh.ru/vacancies"
 request-timeout-in-seconds: 15
 ```
